@@ -1,10 +1,10 @@
 export const SITE = {
-        website: "https://rustyraptor.github.io/blog/", // replace this with your deployed domain
+        website: "cyber.nmsu.edu", // replace this with your deployed domain
         base: "/",
-        author: "Ziad Arafat",
-        profile: "https://satnaing.dev/",
-        desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-        title: "AstroPaper",
+        author: "Cybersecurity Club",
+        profile: "https://github.com/NMSU-Cybersecurity-Club",
+        desc: "A simple portal for our cybersecurity club",
+        title: "Cybersecurity Club",
         ogImage: "astropaper-og.jpg",
         lightAndDarkMode: true,
         postPerIndex: 4,
