@@ -81,3 +81,7 @@ export const SHARE_LINKS: Social[] = [
                 icon: IconMail,
         },
 ] as const;
+
+// link to the outlook html link you get from the calendar settings publish section
+export const EVENT_CALENDAR_URL: string =
+        "https://outlook.office365.com/calendar/published/fd13e8ce2f8846fcb1fec266f25c8dbd@nmsu.edu/ed6799eea93d475eb5c44c1c0ccd3aa91901734758889560687/calendar.html" as const;
