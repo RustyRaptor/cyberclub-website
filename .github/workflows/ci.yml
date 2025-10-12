@@ -26,7 +26,7 @@ jobs:
                         - name: "☁️ Checkout repository"
                           uses: actions/checkout@v4
                           with:
-                                  ref: test
+                                  ref: ${{ github.ref }}
 
                         - name: "📦 Install pnpm"
                           uses: pnpm/action-setup@v4
